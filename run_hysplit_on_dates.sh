@@ -115,10 +115,10 @@ while read p; do
 	   echo "$MET/                  ">>CONTROL
 	   echo "$dataname1             ">>CONTROL
 	   echo "$MET/                  ">>CONTROL
-	   echo "$dataname2             ">>CONTROL
+	   echo "$dataname2">>CONTROL
 	   if [ -n "$dataname3" ]; then 
-	   	  echo "$MET/				">>CONTROL
-	   	  echo "$dataname3		    ">>CONTROL
+	   	  echo "$MET/">>CONTROL
+	   	  echo "$dataname3">>CONTROL
 	   fi
 	   echo "$OUT/                  ">>CONTROL
 	   echo "output_${year}_${month}_${day}_${lat}_${lng}_${i}.txt">>CONTROL
